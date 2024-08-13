@@ -7,9 +7,11 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    background-image: url('../imgs/fondo.jpg');
+    background-size: cover;
 }
 nav{
-    background-color:#1e2326;
+    background-color: #1e2326;
     
 }
 .encabezado img{
@@ -32,7 +34,7 @@ nav{
 }
 .rrss a{
     text-decoration: none;
-    color: #497174;
+    color: #ebeff2;
 }
 .imagen{
     display: flex;
@@ -46,7 +48,7 @@ nav{
 }
 .titulo2{
     font-size: 3.5rem;
-    color: #497174;
+    color: #f7f9fa;
 }
 .resumen{
     display: flex;
@@ -54,6 +56,7 @@ nav{
     align-items: center;
     text-align: center;
 }
+/*
 .seccion-estudios{
     display: flex;
     flex-direction: row;
@@ -73,6 +76,7 @@ nav{
     background-color: #D6E4E5;
     color: #1e2326;
 }
+*/
 .resumen img{
     width: 30rem;
     border-radius: 50%;
